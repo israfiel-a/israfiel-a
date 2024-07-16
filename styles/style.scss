@@ -1,0 +1,184 @@
+// clusterfuck of a file
+
+$background-color: #0f0f0f;
+$foreground-color: #0D0D0D;
+
+$main-text-color: #76209b;
+$secondary-text-color: #581c72;
+$tertiary-text-color: #2f0e3d;
+
+$title-font-size: 26px;
+$title-size-lineheight: 22px;
+$subtitle-font-size: 16px;
+$subtitle-size-lineheight: 20px;
+
+$font-family: 'Times New Roman';
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: $background-color;
+    color: $main-text-color;
+
+    nav {
+        width: 100%;
+        height: 9%;
+        display: flex;
+        flex-direction: column;
+
+        .top-header {
+            height: 70%;
+            background-color: $foreground-color;
+            user-select: none;
+            font-family: $font-family;
+            position: relative;
+
+            .page-label {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+
+                span {
+                    display: block;
+                    margin-left: 1%;
+                    font-weight: bolder;
+
+                    &.page-title {
+                        font-size: $title-font-size;
+                        line-height: $title-size-lineheight;
+                    }
+
+                    &.page-subtitle {
+                        font-size: $subtitle-font-size;
+                        color: $secondary-text-color;
+                        font-style: italic;
+
+                        a {
+                            color: $secondary-text-color;
+                            text-decoration: none;
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .quote-display {
+                position: absolute;
+                width: 50%;
+                height: 100%;
+                font-size: $subtitle-font-size;
+                font-weight: bold;
+                display: flex;
+                flex-direction: column;
+                right: 1%;
+                top: 0%;
+                justify-content: center;
+                text-align: right;
+                align-items: flex-end;
+
+                .quote-text {
+                    font-style: italic;
+                }
+
+                .quote-author {
+                    color: $secondary-text-color;
+                    text-decoration: none;
+                    width: fit-content;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+        .bottom-header {
+            height: 30%;
+            background-image: linear-gradient(to bottom, $main-text-color, $tertiary-text-color);
+            display: flex;
+            align-items: center;
+            gap: 5%;
+
+            a {
+                margin-left: 1%;
+                color: $foreground-color;
+                font-weight: bold;
+                cursor: pointer;
+                text-decoration: none;
+                font-family: $font-family;
+                text-shadow: 0px 1px 0px black;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+
+        main {
+            width: 100%;
+            height: 92%;
+            display: flex;
+            user-select: none;
+            font-family: $font-family;
+
+            // .module-title {
+            //     font-weight: bold;
+            //     font-style: italic;
+            //     font-size: $title-font-size;
+            //     background-color: $foreground-color;
+            //     padding: 1%;
+            //     border: 1px solid $secondary-text-color;
+            //     border-radius: 5px;
+            //     width: fit-content;
+            //     height: fit-content;
+            //     margin-top: 1%;
+            //     margin-left: 1%;
+            //     color: $main-text-color;
+            //     line-height: $title-size-lineheight;
+            // }
+
+            div {
+                margin: 1%;
+                height: 95%;
+                width: 46%;
+                border: 1px solid $main-text-color;
+                border-radius: 10px;
+            }
+
+            .page-news {
+                width: 50%;
+                overflow-x: hidden;
+                overflow-y: scroll;
+                background-color: $foreground-color;
+            }
+
+            .right-bit {
+                width: 50%;
+
+                .page-newest {
+                    height: 50%;
+                    width: 100%;
+                    overflow-x: hidden;
+                    overflow-y: scroll;
+                    background-color: $foreground-color;
+                }
+
+                .page-comments {
+                    height: 50%;
+                    width: 100%;
+                    overflow: hidden;
+                    background-color: $foreground-color;
+                }
+            }
+        }
+    }
+}
