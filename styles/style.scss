@@ -9,6 +9,7 @@ $tertiary-text-color: #2f0e3d;
 
 $title-font-size: 26px;
 $title-size-lineheight: 22px;
+$heading-font-size: 21px;
 $subtitle-font-size: 16px;
 $subtitle-size-lineheight: 20px;
 
@@ -123,42 +124,34 @@ body {
         }
 
 
-        main {
-            width: 100%;
-            height: 92%;
+    }
+
+    main {
+        width: 100%;
+        height: 92%;
+        display: flex;
+        user-select: none;
+        font-family: $font-family;
+        justify-content: center;
+        align-items: center;
+
+        .content {
+            width: 75%;
+            height: 90%;
             display: flex;
-            user-select: none;
-            font-family: $font-family;
 
-            // .module-title {
-            //     font-weight: bold;
-            //     font-style: italic;
-            //     font-size: $title-font-size;
-            //     background-color: $foreground-color;
-            //     padding: 1%;
-            //     border: 1px solid $secondary-text-color;
-            //     border-radius: 5px;
-            //     width: fit-content;
-            //     height: fit-content;
-            //     margin-top: 1%;
-            //     margin-left: 1%;
-            //     color: $main-text-color;
-            //     line-height: $title-size-lineheight;
-            // }
-
-            div {
-                margin: 1%;
-                height: 95%;
-                width: 46%;
-                border: 1px solid $main-text-color;
-                border-radius: 10px;
+            .module-title {
+                font-size: $heading-font-size;
+                font-weight: bold;
+                border-bottom: 1px solid $secondary-text-color;
+                width: 90%;
+                padding-bottom: 5px;
             }
 
             .page-news {
                 width: 50%;
                 overflow-x: hidden;
                 overflow-y: scroll;
-                background-color: $foreground-color;
             }
 
             .right-bit {
@@ -169,16 +162,15 @@ body {
                     width: 100%;
                     overflow-x: hidden;
                     overflow-y: scroll;
-                    background-color: $foreground-color;
                 }
 
                 .page-comments {
                     height: 50%;
                     width: 100%;
                     overflow: hidden;
-                    background-color: $foreground-color;
                 }
             }
         }
+
     }
 }
