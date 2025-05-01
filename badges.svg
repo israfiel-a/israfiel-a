@@ -2,14 +2,15 @@
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
-               div {
+            div {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-               }
+            }
             </style>
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=israfiel-a" alt="top_languages" />
-          <img src="https://github-readme-stats.vercel.app/api?username=israfiel-a" alt="github_stats" />
+            <div>
+                <rect x="0.5" y="0.5" width="50%" height="50%" fill="black"></rect>
+            </div>
         </div>
     </foreignObject>
 </svg>
