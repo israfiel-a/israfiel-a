@@ -1,0 +1,17 @@
+<svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+               div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               }
+            </style>
+            <div>
+              <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=israfiel-a&size_weight=0.5&count_weight=0.5&layout=compact&theme=dark" alt="top_languages">
+              <img src="https://github-readme-stats.vercel.app/api?username=israfiel-a&show_icons=true&theme=dark" alt="github_stats">
+            </div> 
+        </div>
+    </foreignObject>
+</svg>
