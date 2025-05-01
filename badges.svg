@@ -8,8 +8,8 @@
                 align-items: center;
                }
             </style>
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=israfiel-a&size_weight=0.5&count_weight=0.5&layout=compact&theme=dark?sanitize=true" alt="top_languages" />
-          <img src="https://github-readme-stats.vercel.app/api?username=israfiel-a&show_icons=true&theme=dark?sanitize=true" alt="github_stats" />
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=israfiel-a?sanitize=true" alt="top_languages" />
+          <img src="https://github-readme-stats.vercel.app/api?username=israfiel-a?sanitize=true" alt="github_stats" />
         </div>
     </foreignObject>
 </svg>
