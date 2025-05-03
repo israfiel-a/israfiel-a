@@ -5,9 +5,10 @@ Known Languages (in knowledge order):
 - Javascript/CSS/HTML
 - Java
 - C++ (and Arduino C++)
-- Bash (Limited)
-- NASM (Limited)
-- C# (Limited)
+- Bash
+- Python
+- NASM
+- C#
 
 If you've got any questions, feel free to contact me via my [buisness email](mailto:israfiel_buisness.nearly025@passfwd.com).
 
