@@ -1,4 +1,13 @@
-I am Israfil Argos, a hobbyist programmer and creative author. I like making game engines, small embedded projects, and other things. I'm a C fellow, but have been recently experimenting with C++ (I like namespaces) and Javascript (no comment). As for writing, fantasy is probably my favorite and strongest area.
+I am Israfil Argos, a hobbyist programmer and creative author. I like making game engines, small embedded projects, and other things. I'm a C fellow at heart, but I like Java (I like organization) and Javascript (it's versatile and easy, I can turn my brain off). As for writing, fantasy is probably my favorite and strongest area.
+
+Known Languages (in knowledge order):
+- C
+- Javascript/CSS/HTML
+- Java
+- C++ (and Arduino C++)
+- Bash (Limited)
+- NASM (Limited)
+- C# (Limited)
 
 If you've got any questions, feel free to contact me via my [buisness email](mailto:israfiel_buisness.nearly025@passfwd.com).
 
