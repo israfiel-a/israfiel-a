@@ -1,0 +1,8 @@
+A series (INFO) file is very similar to a Wavefront object file in format. It contains a bunch of lines, each beginning with the single-character ID of what that line represents.
+
+'t': The long name of the series.
+'s': The short name of the series.
+'a': The series' author.
+'k': A list of keywords. These are added onto by auto-generation, like the series titles, the author, the book titles, chapter titles, and other metadata.
+'b': A book title.
+'c': A chapter title.

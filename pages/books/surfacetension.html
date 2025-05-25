@@ -10,6 +10,7 @@
         <meta name="author" content="Israfil Argos">
 
         <link rel="stylesheet" href="../../styles/global.css">
+        <link rel="stylesheet" href="../../styles/collapsible.css">
         <link rel="stylesheet" href="../../styles/top.css">
         <script src="../../scripts/collapsible.js"></script>
         <script src="https://kit.fontawesome.com/ef12c8d662.js" crossorigin="anonymous"></script>
@@ -20,6 +21,43 @@
         </script>
     </head>
     <body>
-        <main></main>
+        <style>
+            main {
+                width: 100%;
+                height: calc(100% - 5.5vh - 2vw);
+                padding: 1vw;
+                display: flex;
+
+                h1 {
+                    letter-spacing: 0.25em;
+                    text-align: center;
+                }
+            }
+
+            section.collapsible {
+                width: 15%;
+            }
+        </style>
+        <main>
+            <section class="collapsible">
+                <h1>Books</h1>
+                <a href="./surfacetension/prelude.html">Prelude</a>
+                <button>Bloodletter <i class="fa-solid fa-caret-down"></i></button>
+                <div class="opened">
+                    <a href="./surfacetension/bloodletter.html">Index</a>
+                </div>
+                <button>Chainbinder <i class="fa-solid fa-caret-down"></i></button>
+                <div>
+                    <a href="./surfacetension/chainbinder.html">Index</a>
+                </div>
+                <button>Godslayer <i class="fa-solid fa-caret-down"></i></button>
+                <div>
+                    <a href="./surfacetension/godslayer.html">Index</a>
+                </div>
+            </section>
+            <section>
+                <h1>Synopsis</h1>
+            </section>
+        </main>
     </body>
 </html>
