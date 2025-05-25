@@ -5,59 +5,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="color-scheme" content="dark light">
 
-        <title>The Argos Wiki | Landing</title>
         <meta name="description" content="A homepage for my projects.">
         <meta name="keywords" content="israfil argos,israfiel-a,israfiel a,israfiel argos,argos,argos wiki,khatil,surface tension,surface tension trilogy">
         <meta name="author" content="Israfil Argos">
 
+        <link rel="stylesheet" href="./styles/global.css">
+        <link rel="stylesheet" href="./styles/top.css">
         <link rel="stylesheet" href="./styles/index.css">
         <script src="./scripts/collapsible.js"></script>
         <script src="https://kit.fontawesome.com/ef12c8d662.js" crossorigin="anonymous"></script>
+
+        <script type="module">
+            import { createHeader } from "./scripts/top.js";
+            createHeader("Landing");
+        </script>
     </head>
     <body>
-        <nav>
-            <header>
-                <h1>The Argos Wiki</h1>
-                <h2>Landing</h2>
-            </header>
-            <hgroup>
-                <section>
-                    <h2>Programming <i class="fa-solid fa-arrow-down"></i></h2>
-                    <div>
-                        <a href="./pages/other/cobalt.html">Cobalt <i>(OS)</i></a>
-                        <a href="./pages/other/iridium.html">Iridium <i>(Engine)</i></a>
-                        <a href="./pages/games/stormsinger.html">Stormsinger <i>(Game)</i></a>
-                        <a href="./pages/games/khaal.html">Khaal <i>(Game)</i></a>
-                    </div>
-                </section>
-                <section>
-                    <h2>Writing <i class="fa-solid fa-arrow-down"></i></h2>
-                    <div>
-                        <a href="./pages/books/surfacetension/bloodletter.html">Bloodletter <i>(Novel)</i></a>
-                        <a href="./pages/books/surfacetension/chainbinder.html">Chainbinder <i>(Novel)</i></a>
-                        <a href="./pages/books/surfacetension/godslayer.html">Godslayer <i>(Novel)</i></a>
-                        <a href="./pages/books/deathbender/redhand.html">Redhand <i>(Novella)</i></a>
-                        <a href="./pages/books/deathbender/blueblood.html">Blue Blood <i>(Novella)</i></a>
-                        <a href="./pages/books/fallfromgrace/thefatherofall.html">The Father of All <i>(Novella)</i></a>
-                        <a href="./pages/books/fallfromgrace/thefinalsunset.html">The Final Sunset <i>(Novella)</i></a>
-                        <a href="./pages/books/fallfromgrace/anemptybattlefield.html">An Empty Battlefield <i>(Novella)</i></a>
-                        <a href="./pages/books/allislost/thereishope.html">There is Hope <i>(Novel)</i></a>
-                        <a href="./pages/books/allislost/thetunnelslight.html">The Tunnel's Light <i>(Novel)</i></a>
-                        <a href="./pages/books/allislost/thefinalbreath.html">The Final Breath <i>(Novella)</i></a>
-                        <a href="./pages/books/allislost/whenallislost.html">When All is Lost <i>(Novel)</i></a>
-                        <a href="./pages/books/theharbingers/lostlamb.html">Lost Lamb <i>(Novella)</i></a>
-                        <a href="./pages/books/theharbingers/harbinger.html">Harbinger <i>(Novel)</i></a>
-                        <a href="./pages/books/theharbingers/dustalive.html">Dust Alive <i>(Novel)</i></a>
-                        <a href="./pages/books/theartofinvokingagod.html">The Art of Invoking a God <i>(Novella)</i></a>
-                    </div>
-                </section>
-                <a href="./pages/blog/blog.html">Blog</a>
-            </hgroup>
-            <aside>
-                <p>An idiot admires complexity, a genius admires simplicity.</p>
-                <p>&mdash;Terry A. Davis</p>
-            </aside>
-        </nav>
         <hgroup>
             <p>Current Projects:</p>
             <a href="./pages/books/surfacetension/bloodletter.html">Bloodletter (Novel)</a>
@@ -80,23 +43,27 @@
                 <div class="opened">
                     <button>Surface Tension <i class="fa-solid fa-caret-left"></i></button>
                     <div>
+                        <a href="./pages/books/surfacetension.html">Index</a>
                         <a href="./pages/books/surfacetension/bloodletter.html">Bloodletter</a>
                         <a href="./pages/books/surfacetension/chainbinder.html">Chainbinder</a>
                         <a href="./pages/books/surfacetension/godslayer.html">Godslayer</a>
                     </div>
                     <button>Deathbender <i class="fa-solid fa-caret-left"></i></button>
                     <div>
+                        <a href="./pages/books/deathbender.html">Index</a>
                         <a href="./pages/books/deathbender/redhand.html">Redhand</a>
                         <a href="./pages/books/deathbender/blueblood.html">Blue Blood</a>
                     </div>
                     <button>Fall From Grace <i class="fa-solid fa-caret-left"></i></button>
                     <div>
+                        <a href="./pages/books/fallfromgrace.html">Index</a>
                         <a href="./pages/books/fallfromgrace/thefatherofall.html">The Father of All</a>
                         <a href="./pages/books/fallfromgrace/thefinalsunset.html">The Final Sunset</a>
                         <a href="./pages/books/fallfromgrace/anemptybattlefield.html">An Empty Battlefield</a>
                     </div>
                     <button>All is Lost <i class="fa-solid fa-caret-left"></i></button>
                     <div>
+                        <a href="./pages/books/allislost.html">Index</a>
                         <a href="./pages/books/allislost/thereishope.html">There is Hope</a>
                         <a href="./pages/books/allislost/thetunnelslight.html">The Tunnel's Light</a>
                         <a href="./pages/books/allislost/thefinalbreath.html">The Final Breath</a>
@@ -104,6 +71,7 @@
                     </div>
                     <button>The Harbingers <i class="fa-solid fa-caret-left"></i></button>
                     <div>
+                        <a href="./pages/books/theharbingers.html">Index</a>
                         <a href="./pages/books/theharbingers/lostlamb.html">Lost Lamb</a>
                         <a href="./pages/books/theharbingers/harbinger.html">Harbinger</a>
                         <a href="./pages/books/theharbingers/dustalive.html">Dust Alive</a>
