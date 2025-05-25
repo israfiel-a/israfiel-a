@@ -1,4 +1,4 @@
-I am Israfil Argos, a hobbyist programmer and creative author. I like making game engines, small embedded projects, and other things. I'm a C fellow at heart, but I like Java (I like organization) and Javascript (it's versatile and easy, I can turn my brain off). As for writing, fantasy is probably my favorite and strongest area.
+I am Israfil Argos, a hobbyist programmer and creative author. I like making game engines, small embedded projects, and other things. I'm a C fellow at heart, but I like Java (I like organization) and Javascript (it's versatile and easy, I can turn my brain off). As for writing, fantasy is probably my favorite and strongest area, see [my website]() for writing pieces.
 
 Known Languages (in knowledge order):
 - C
